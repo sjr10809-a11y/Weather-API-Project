@@ -12,6 +12,8 @@
 
     .buttons {
       margin-top: 60px;
+      display:grid;
+      grid-template-columns: auto auto;
     }
 
     button {
@@ -35,4 +37,11 @@
 
     .section {
       margin-top: 80px;
+    }
+
+    @media (max-width: 600px) {
+      .buttons{
+        grid-template-columns: auto;
+
+      }
     }
